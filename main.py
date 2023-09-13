@@ -3,6 +3,7 @@ import tkinter as tk
 from tkinter import ttk, messagebox
 from PIL import Image, ImageTk
 import io
+# importing the modules.
 
 def get_github_profile_info(profile_link):
     username = profile_link.split('/')[-1]
